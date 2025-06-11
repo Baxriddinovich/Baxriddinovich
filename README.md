@@ -1,132 +1,55 @@
-## Hi there 👋
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hacker Style GitHub README</title>
-    <style>
-        body {
-            background: #0d1117;
-            color: #00ff00;
-            font-family: 'Courier New', Courier, monospace;
-            text-align: center;
-            margin: 0;
-            padding: 20px;
-            overflow-x: hidden;
-        }
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-            border: 2px solid #00ff00;
-            border-radius: 10px;
-            box-shadow: 0 0 20px rgba(0, 255, 0, 0.5);
-        }
-        h1 {
-            font-size: 2.5em;
-            text-transform: uppercase;
-            letter-spacing: 2px;
-            text-shadow: 0 0 10px #00ff00;
-        }
-        p {
-            font-size: 1.2em;
-            line-height: 1.6;
-        }
-        .terminal {
-            background: #000;
-            padding: 20px;
-            border-radius: 5px;
-            text-align: left;
-            white-space: pre-wrap;
-            font-size: 1em;
-            margin: 20px 0;
-        }
-        .blink {
-            animation: blink 1s step-end infinite;
-        }
-        @keyframes blink {
-            50% { opacity: 0; }
-        }
-        .social-links a {
-            color: #00ff00;
-            text-decoration: none;
-            margin: 0 10px;
-            font-size: 1.1em;
-        }
-        .social-links a:hover {
-            text-shadow: 0 0 10px #00ff00;
-        }
-        .matrix {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            z-index: -1;
-            opacity: 0.1;
-        }
-    </style>
-</head>
-<body>
-    <canvas id="matrix" class="matrix"></canvas>
-    <div class="container">
-        <h1>👾 [Your GitHub Username]</h1>
-        <p>Welcome to my digital lair! I'm a coder, hacker, and tech enthusiast.</p>
-        <div class="terminal">
-            $ whoami
-            > [Your Name]
-            $ skills
-            > JavaScript | Python | HTML | CSS | Cybersecurity
-            $ status
-            > Hacking the mainframe... <span class="blink">_</span>
-        </div>
-        <div class="social-links">
-            <a href="https://x.com/yourusername" target="_blank">X Profile</a> |
-            <a href="https://linkedin.com/in/yourusername" target="_blank">LinkedIn</a> |
-            <a href="mailto:your.email@example.com">Email</a>
-        </div>
-    </div>
+<h1 align="center">🕶️ RealCoders - Web Developer | Code Hacker</h1>
 
-    <script>
-        const canvas = document.getElementById('matrix');
-        const ctx = canvas.getContext('2d');
+<p align="center">
+  <img src="https://i.ibb.co/WsxGcf1/hack-banner.gif" alt="Hacker Banner" width="100%">
+</p>
 
-        canvas.height = window.innerHeight;
-        canvas.width = window.innerWidth;
+<p align="center">
+  <a href="https://realcoders.uz"><img src="https://img.shields.io/badge/Website-realcoders.uz-black?style=for-the-badge&logo=firefox&logoColor=white"></a>
+  <a href="mailto:youremail@mail.com"><img src="https://img.shields.io/badge/Email-Click_to_Send-green?style=for-the-badge&logo=gmail"></a>
+  <img src="https://komarev.com/ghpvc/?username=yourusername&style=for-the-badge&color=blue" alt="visits">
+</p>
 
-        const chars = '01abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ@#$%^&*';
-        const fontSize = 14;
-        const columns = canvas.width / fontSize;
-        const drops = [];
+---
 
-        for (let x = 0; x < columns; x++) {
-            drops[x] = 1;
-        }
+### 🧑‍💻 About Me
+- 🔥 Full-Stack Web Developer
+- 👾 Passionate about gamification, AI, and creative projects
+- 🖤 I live by dark themes and clean code
 
-        function draw() {
-            ctx.fillStyle = 'rgba(0, 0, 0, 0.05)';
-            ctx.fillRect(0, 0, canvas.width, canvas.height);
-            ctx.fillStyle = '#00ff00';
-            ctx.font = fontSize + 'px monospace';
+---
 
-            for (let i = 0; i < drops.length; i++) {
-                const text = chars.charAt(Math.floor(Math.random() * chars.length));
-                ctx.fillText(text, i * fontSize, drops[i] * fontSize);
+### 🚀 Projects
+- 🎮 **Thinko.uz** – Real-life reward system for kids with tasks and games
+- 🧰 **UstaGo.uz** – Marketplace for local services (like MyTomor)
+- 🐾 **AI Animal Translator** – Experimental project to decode animal signals
 
-                if (drops[i] * fontSize > canvas.height && Math.random() > 0.975) {
-                    drops[i] = 0;
-                }
-                drops[i]++;
-            }
-        }
+---
 
-        setInterval(draw, 33);
+### 🧠 Skills
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-8892BF?style=flat-square&logo=php&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-00758F?style=flat-square&logo=mysql&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![HTML](https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F0DB4F?style=flat-square&logo=javascript&logoColor=black)
+![Linux](https://img.shields.io/badge/Linux-black?style=flat-square&logo=linux&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F1502F?style=flat-square&logo=git&logoColor=white)
 
-        window.addEventListener('resize', () => {
-            canvas.height = window.innerHeight;
-            canvas.width = window.innerWidth;
-        });
-    </script>
-</body>
-</html>
+
+---
+
+### 📊 GitHub Stats
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=radical&hide_title=true" />
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=yourusername&theme=radical" />
+</p>
+
+---
+
+### 🧩 Fun Fact
+> "I write code with black themes, dark coffee, and bright ideas." ☕🖤
+
+---
+
