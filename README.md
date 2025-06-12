@@ -26,14 +26,8 @@ Contact Me
 
 ---
 
-### 🚀 Projects
-- 🎮 **Thinko.uz** – Real-life reward system for kids with tasks and games
-- 🧰 **UstaGo.uz** – Marketplace for local services (like MyTomor)
-- 🐾 **AI Animal Translator** – Experimental project to decode animal signals
 
----
-
-### 🧠 Skills
+🧠 Skills
 ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
 ![PHP](https://img.shields.io/badge/PHP-8892BF?style=flat-square&logo=php&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-00758F?style=flat-square&logo=mysql&logoColor=white)
